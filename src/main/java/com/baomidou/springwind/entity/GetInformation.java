@@ -101,10 +101,11 @@ public class GetInformation implements Serializable {
 	@TableField("update_time")
 	private Date updateTime;
 
-
 	public Long getId() {
 		return id;
 	}
+
+
 
 	public void setId(Long id) {
 		this.id = id;

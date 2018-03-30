@@ -218,6 +218,25 @@
 		<field name="updateTime" title="更新时间" pattern="yyyy/MM/dd HH:mm:ss"/>
 	</excel>
 
+	<excel id="duePayment" class="com.baomidou.springwind.entity.DuePayment"
+		   sheetname="到期回款情况" defaultColumnWidth="5000" defaultAlign="center" enableStyle="true">
+		<field name="id" title="主键"/>
+		<field name="memberNo" title="客户会员号"/>
+		<field name="userName" title="客户姓名"/>
+		<field name="mobileNo" title="客户手机号"/>
+		<field name="advisorId" title="投资顾问id"/>				
+		<field name="advisorName" title="投资顾问"/>
+		<field name="productId" title="到期产品id"/>		
+		<field name="productName" title="到期产品名"/>
+		<field name="transAmount" title="交易金额"/>
+		<field name="inceptionDate" title="产品成立日" pattern="yyyy/MM/dd HH:mm:ss"/>
+		<field name="dueDate" title="产品到期日" pattern="yyyy/MM/dd HH:mm:ss"/>
+		<field name="productLimit" title="产品期限(天)"/>
+		<field name="displayRate" title="产品利率"/>
+		<field name="createTime" title="创建时间" pattern="yyyy/MM/dd HH:mm:ss"/>
+		<field name="updateTime" title="更新时间" pattern="yyyy/MM/dd HH:mm:ss"/>
+	</excel>
+
 	<!-- 功能模块 -->
 	<excel id="advisor" class="com.baomidou.springwind.entity.Advisor"
 		   sheetname="投资顾问" defaultColumnWidth="5000" defaultAlign="center" enableStyle="true">
